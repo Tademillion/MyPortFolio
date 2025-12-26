@@ -54,7 +54,7 @@ export default function Hero() {
 
               <div className="flex flex-wrap gap-3 pt-4 sm:gap-4">
                 <a
-                  href="#projects"
+                  href="#"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/40 transition-all duration-300 hover:scale-105 whitespace-nowrap"
                 >
                   View My Work <ArrowRight size={18} />

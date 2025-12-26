@@ -13,8 +13,7 @@ import {
   Mail,
   Github,
   Linkedin,
-  Instagram,
-  MessageCircle,
+  Instagram, 
 } from "lucide-react"
 
 interface SidebarProps {
@@ -46,8 +45,7 @@ export default function Sidebar({
     { icon: Github, label: "GitHub", href: "https://github.com/Tademillion", color: "hover:text-cyan-500" },
     { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/tade-million/", color: "hover:text-blue-500" },
     { icon: Instagram, label: "Instagram", href: "#", color: "hover:text-pink-500" },
-    { icon: MessageCircle, label: "Telegram", href: "#", color: "hover:text-cyan-400" },
-  ]
+   ]
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault()

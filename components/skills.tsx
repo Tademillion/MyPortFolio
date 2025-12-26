@@ -43,7 +43,7 @@ export default function Skills() {
     {
       category: "Databases",
       skills: [
-        { name: "PostgreSQL", description: "Powerful open-source relational database", icon: "🐘" },
+        // { name: "PostgreSQL", description: "Powerful open-source relational database", icon: "🐘" },
         { name: "MongoDB", description: "NoSQL database for flexible data models", icon: "🍃" },
         { name: "SQL Server", description: "Enterprise database management system", icon: "🗄️" },
         { name: "MySQL", description: "Popular open-source relational database", icon: "🐬" },
@@ -54,8 +54,10 @@ export default function Skills() {
       skills: [
         { name: "Git & GitHub", description: "Version control and collaboration", icon: "🐙" },
         { name: "Docker", description: "Containerization for consistent deployment", icon: "🐳" },
-        { name: "GraphQL", description: "Query language for flexible API design", icon: "📊" },
-        { name: "AWS", description: "Cloud infrastructure and services", icon: "☁️" },
+        { name: "Postman", description: "API platform for building, testing, and documentation", icon: "🚀" },
+        { name: "Swagger", description: "Tools for designing and documenting RESTful APIs", icon: "📖" },
+        // { name: "GraphQL", description: "Query language for flexible API design", icon: "📊" },
+        // { name: "AWS", description: "Cloud infrastructure and services", icon: "☁️" },
       ],
     },
   ]
@@ -125,7 +127,7 @@ export default function Skills() {
             <div className="space-y-2">
               <p className="text-sm font-semibold text-blue-600 dark:text-blue-400">API Architecture</p>
               <p className="text-sm text-muted-foreground">
-                Designing scalable RESTful and GraphQL APIs with proper authentication
+                Designing scalable RESTful  APIs with proper authentication and Roles
               </p>
             </div>
             <div className="space-y-2">

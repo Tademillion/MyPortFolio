@@ -74,7 +74,7 @@ export default function Home() {
           {pages.map((page) => (
             <div
               key={page.id}
-              className="w-full h-full absolute transition-all duration-500 ease-out"
+              className="w-full h-full absolute transition-all duration-1000 ease-out"
               style={{
                 transform:
                   page.id === activePage

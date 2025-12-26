@@ -136,8 +136,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4 gap-4">
                   <a
                     href={project.link}
-                    target="_blanku"
-                    className="p-3 bg-white/20 backdrop-blur-sm hover:bg-cyan-500 text-white rounded-lg transition-all duration-300 transform hover:scale-110"
+                     className="p-3 bg-white/20 backdrop-blur-sm hover:bg-cyan-500 text-white rounded-lg transition-all duration-300 transform hover:scale-110"
                     aria-label="View project"
                   >
                     <ExternalLink size={20} />
@@ -208,6 +207,7 @@ export default function Projects() {
               <div className="flex gap-4">
                 <a
                   href={projects.find((p) => p.id === selectedProject)?.github}
+                  target="_blank"
                   className="flex-1 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg font-semibold text-center hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   <Github size={18} /> View Code

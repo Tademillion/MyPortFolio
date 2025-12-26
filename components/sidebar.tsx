@@ -43,8 +43,8 @@ export default function Sidebar({
   ]
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", href: "#", color: "hover:text-cyan-500" },
-    { icon: Linkedin, label: "LinkedIn", href: "#", color: "hover:text-blue-500" },
+    { icon: Github, label: "GitHub", href: "https://github.com/Tademillion", color: "hover:text-cyan-500" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/tade-million/", color: "hover:text-blue-500" },
     { icon: Instagram, label: "Instagram", href: "#", color: "hover:text-pink-500" },
     { icon: MessageCircle, label: "Telegram", href: "#", color: "hover:text-cyan-400" },
   ]
@@ -140,6 +140,7 @@ export default function Sidebar({
                     key={social.label}
                     href={social.href}
                     title={social.label}
+                    target="_blank"
                     className={`p-2 bg-sidebar-accent/10 hover:bg-sidebar-accent/20 rounded-lg transition-all duration-200 flex items-center justify-center ${social.color}`}
                     aria-label={social.label}
                   >

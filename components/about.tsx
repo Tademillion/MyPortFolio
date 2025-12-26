@@ -124,7 +124,7 @@ export default function About() {
                  ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3 group">
                     <div className="w-2 h-2 bg-cyan-500 rounded-full group-hover:scale-150 transition-transform duration-300" />
-                    <span className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">
+                    <span className="text-muted-foreground group-hover: -foreground transition-colors duration-300">
                       {item}
                     </span>
                   </div>

@@ -26,93 +26,83 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Human Resource Management System",
       description:
         "Complete full-stack e-commerce solution featuring real-time inventory management, secure payment processing with Stripe integration, and responsive product catalog with advanced search and filtering.",
-      tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      image: "/modern-e-commerce-dashboard-with-products.jpg",
+      tags: [".Net Frameworks ", "SQL Server", "DevExpress", "IIS"], 
+      image: "/HRMS.webp",
       gallery: [
-        "/modern-e-commerce-dashboard-with-products.jpg",
-        "/analytics-dashboard.png",
-        "/task-management-interface-with-calendar-and-tasks.jpg",
+        
       ],
       link: "#",
       github: "#",
     },
     {
       id: 2,
-      title: "Real-Time Chat Application",
+      title: "Stock Management System",
       description:
         "Modern chat application with WebSocket-powered real-time messaging, AI-powered response suggestions, persistent message history, and user presence indicators for enhanced collaboration.",
-      tags: ["Next.js", "WebSocket", "OpenAI", "Tailwind"],
-      image: "/chat-interface-with-real-time-messaging.jpg",
+      tags: [".Net Frameworks ", "SQL Server", "DevExpress", "IIS"],
+      image: "/stockManagement.webp",
       gallery: [
-        "/chat-interface-with-real-time-messaging.jpg",
-        "/task-management-interface-with-calendar-and-tasks.jpg",
-        "/analytics-dashboard.png",
-      ],
+        "/stockManagement1.jpg",
+        "/stockManagement2.jpg",
+       ],
       link: "#",
       github: "#",
     },
     {
       id: 3,
-      title: "Analytics Dashboard",
+      title: "Budget And Planing System",
       description:
         "Interactive analytics platform with real-time data visualization using D3.js, customizable charts and metrics, export functionality, and comprehensive reporting capabilities for data-driven insights.",
-      tags: ["React", "D3.js", "GraphQL", "MongoDB"],
-      image: "/analytics-dashboard.png",
+      tags: ["Next.js", "MongoDb", "Tailwind", "TypeScript","NodeJs","Express"], 
+      image: "/budgetandPlan.webp",
       gallery: [
-        "/analytics-dashboard.png",
-        "/modern-e-commerce-dashboard-with-products.jpg",
-        "/chat-interface-with-real-time-messaging.jpg",
+        "/budgetandPlan1.webp",
+        
       ],
       link: "#",
       github: "#",
     },
     {
       id: 4,
-      title: "Task Management App",
+      title: "Digital Letter Verification System",
       description:
         "Collaborative project management tool with real-time task updates, team collaboration features, deadline tracking, progress visualization, and integrated communication for remote teams.",
-      tags: ["Next.js", "Firebase", "Tailwind", "TypeScript"],
-      image: "/task-management-interface-with-calendar-and-tasks.jpg",
+      tags: ["Next.js", "MongoDb", "Tailwind", "TypeScript","NodeJs","Express"],
+      image: "/DigitalLetter.avif",
       gallery: [
-        "/task-management-interface-with-calendar-and-tasks.jpg",
-        "/api-gateway-architecture.png",
-        "/analytics-dashboard.png",
+        
       ],
       link: "#",
       github: "#",
     },
     {
       id: 5,
-      title: "API Gateway Service",
+      title: "Amhara Region Court Fee Management System",
       description:
         "Scalable microservices gateway with intelligent rate limiting, JWT-based authentication, request/response logging, performance monitoring, and load balancing for enterprise applications.",
-      tags: ["Node.js", "Express", "Redis", "Docker"],
-      image: "/api-gateway-architecture.png",
+      tags: ["Nextjs", "Tailwind", "NodeJs", "Docker","MongoDb"],
+      image: "/courtFeeImg.png",
       gallery: [
-        "/api-gateway-architecture.png",
-        "/backend-server-architecture-with-api-endpoints.jpg",
-        "/analytics-dashboard.png",
+        "/courtFeeImg.png", 
       ],
       link: "#",
       github: "#",
     },
     {
       id: 6,
-      title: "Mobile App Backend",
+      title: "Invetory Management Solution",
       description:
         "Robust RESTful backend service for iOS and Android applications featuring secure JWT authentication, push notifications, database optimization, and comprehensive error handling.",
-      tags: ["Node.js", "PostgreSQL", "AWS", "JWT"],
+      tags: [".Net Core", "SQL Server", "NextJs", "Tailwind","JWT"],
       image: "/backend-server-architecture-with-api-endpoints.jpg",
       gallery: [
-        "/backend-server-architecture-with-api-endpoints.jpg",
-        "/api-gateway-architecture.png",
-        "/modern-e-commerce-dashboard-with-products.jpg",
+        "/backend-server-architecture-with-api-endpoints.jpg"
       ],
       link: "#",
-      github: "#",
+      github: "https://github.com/Tademillion/Court-Management-System",
     },
   ]
 
@@ -120,7 +110,7 @@ export default function Projects() {
     <section id="projects-section" className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Featured Projects</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Projects</h2>
           <div className="w-12 h-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full mx-auto mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Showcasing my expertise in full-stack development with modern technologies and best practices
@@ -146,6 +136,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4 gap-4">
                   <a
                     href={project.link}
+                    target="_blanku"
                     className="p-3 bg-white/20 backdrop-blur-sm hover:bg-cyan-500 text-white rounded-lg transition-all duration-300 transform hover:scale-110"
                     aria-label="View project"
                   >

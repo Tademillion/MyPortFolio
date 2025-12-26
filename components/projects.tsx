@@ -28,7 +28,7 @@ export default function Projects() {
       id: 1,
       title: "Human Resource Management System",
       description:
-        "Complete full-stack e-commerce solution featuring real-time inventory management, secure payment processing with Stripe integration, and responsive product catalog with advanced search and filtering.",
+        "A Human Resource Management System (HRMS) is a comprehensive digital ecosystem designed to centralize and automate the entire employee lifecycle. It transforms complex administrative tasks into streamlined workflows, from core personnel records and leave tracking to performance evaluations and organizational growth.",
       tags: [".Net Frameworks ", "SQL Server", "DevExpress", "IIS"], 
       image: "/HRMS.webp",
       gallery: [
@@ -41,7 +41,7 @@ export default function Projects() {
       id: 2,
       title: "Stock Management System",
       description:
-        "Modern chat application with WebSocket-powered real-time messaging, AI-powered response suggestions, persistent message history, and user presence indicators for enhanced collaboration.",
+        "The Stock Management System (SMS) is a centralized application designed to manage the complete lifecycle of inventory—from procurement to issuance, transfers, returns, and auditing. It ensures real-time stock visibility, accountability, and compliance across stores, warehouses, and employees.",
       tags: [".Net Frameworks ", "SQL Server", "DevExpress", "IIS"],
       image: "/stockManagement.webp",
       gallery: [
@@ -55,7 +55,7 @@ export default function Projects() {
       id: 3,
       title: "Budget And Planing System",
       description:
-        "Interactive analytics platform with real-time data visualization using D3.js, customizable charts and metrics, export functionality, and comprehensive reporting capabilities for data-driven insights.",
+        "The Budget and Planning System (BPS) is a centralized financial application designed to support annual budget preparation, consolidation, analysis, and reporting across a multi-level organizational structure. The system enables branches to submit detailed yearly budgets by category, automatically aggregates data at district and bank-wide levels, and provides comprehensive reports to support planning, monitoring, and decision-making.",
       tags: ["Next.js", "MongoDb", "Tailwind", "TypeScript","NodeJs","Express"], 
       image: "/budgetandPlan.webp",
       gallery: [
@@ -69,7 +69,7 @@ export default function Projects() {
       id: 4,
       title: "Digital Letter Verification System",
       description:
-        "Collaborative project management tool with real-time task updates, team collaboration features, deadline tracking, progress visualization, and integrated communication for remote teams.",
+        "Compressive and secure Digital Letter Verification System used to verify the Forgid Letter from Original Letter and verify through different Method.",
       tags: ["Next.js", "MongoDb", "Tailwind", "TypeScript","NodeJs","Express"],
       image: "/DigitalLetter.avif",
       gallery: [
@@ -82,7 +82,7 @@ export default function Projects() {
       id: 5,
       title: "Amhara Region Court Fee Management System",
       description:
-        "Scalable microservices gateway with intelligent rate limiting, JWT-based authentication, request/response logging, performance monitoring, and load balancing for enterprise applications.",
+        "Its The System That Transform The Amhara Region Court System into Digital Platforms and manage Courts by level,Financial Security and payments",
       tags: ["Nextjs", "Tailwind", "NodeJs", "Docker","MongoDb"],
       image: "/courtFeeImg.png",
       gallery: [
@@ -95,7 +95,7 @@ export default function Projects() {
       id: 6,
       title: "Invetory Management Solution",
       description:
-        "Robust RESTful backend service for iOS and Android applications featuring secure JWT authentication, push notifications, database optimization, and comprehensive error handling.",
+        "This system manages products and tracks inventory accurately across warehouses.It includes an AI assistant that analyzes sales and stock history to forecast future demand and recommend reorder quantities.This helps businesses avoid stock shortages and overstocking.",
       tags: [".Net Core", "SQL Server", "NextJs", "Tailwind","JWT"],
       image: "/backend-server-architecture-with-api-endpoints.jpg",
       gallery: [

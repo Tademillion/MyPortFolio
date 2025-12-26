@@ -13,7 +13,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(true)
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -65,19 +65,19 @@ export default function Contact() {
               {
                 icon: Mail,
                 label: "Email",
-                value: "hello@taddmillion.com",
+                value: "tedlamillionyou@gmail.com",
                 href: "mailto:hello@taddmillion.com",
               },
               {
                 icon: Phone,
                 label: "Phone",
-                value: "+1 (555) 123-4567",
-                href: "tel:+15551234567",
+                value: "+251 939 847277",
+                href: "tel:+251 939 847277",
               },
               {
                 icon: MapPin,
                 label: "Location",
-                value: "San Francisco, CA",
+                value: "Addis Ababa, Ethiopia",
                 href: "#",
               },
             ].map((contact, i) => {

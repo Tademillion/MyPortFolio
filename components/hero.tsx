@@ -33,7 +33,7 @@ export default function Hero() {
             >
               <div className="space-y-4">
                 <p className="text-cyan-500 font-semibold text-sm uppercase tracking-wider animate-fade-in">
-                  Welcome to my portfolio
+                  Welcome 
                 </p>
                 <h1 className="text-5xl md:text-7xl font-bold leading-tight">
                   Hello, I'm{" "}
@@ -75,28 +75,30 @@ export default function Hero() {
 
               {/* Social Links */}
               <div className="flex gap-4 pt-4">
-                <a
-                  href="#"
+                <a 
                   className="p-3 bg-muted hover:bg-cyan-500/20 rounded-lg transition-all duration-300 hover:scale-110 transform"
                   aria-label="GitHub"
                   title="GitHub"
+                  href="https://github.com/Tademillion"
+                  target="_blank"
                 >
-                  <Github size={20} />
+                  <Github size={20}  />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/tade-million"
                   className="p-3 bg-muted hover:bg-blue-500/20 rounded-lg transition-all duration-300 hover:scale-110 transform"
                   aria-label="LinkedIn"
                   title="LinkedIn"
+                  target="_blank"
                 >
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="mailto:tedlamillionyou@gmail.com"
                   className="p-3 bg-muted hover:bg-cyan-500/20 rounded-lg transition-all duration-300 hover:scale-110 transform"
                   aria-label="Email"
                   title="Email"
-                >
+                 >
                   <Mail size={20} />
                 </a>
               </div>
@@ -125,7 +127,7 @@ export default function Hero() {
               {/* Image container */}
               <div className="relative w-full h-full rounded-3xl overflow-hidden border-2 border-gradient-to-r from-cyan-500 to-blue-600 shadow-2xl">
                 <Image
-                  src="/professional-developer-portrait-headshot.jpg"
+                  src="/proefssional-image.png"
                   alt="Professional developer portrait"
                   width={320}
                   height={320}

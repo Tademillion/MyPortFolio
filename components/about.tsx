@@ -115,10 +115,13 @@ export default function About() {
                 <h3 className="text-lg font-semibold text-foreground">What I Do</h3>
                 {[
                   "Building scalable web applications",
-                  "Designing intuitive user interfaces",
+                  "Designing intuitive  user interfaces",
                   "Optimizing performance and security",
-                  "Mentoring junior developers",
-                ].map((item, i) => (
+                  "Build Secure and scalable dynamic backend Api",
+                  "Build intuitive and resposive UI",
+                  "Handle Database Management",
+                  "Deploy Applications"
+                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3 group">
                     <div className="w-2 h-2 bg-cyan-500 rounded-full group-hover:scale-150 transition-transform duration-300" />
                     <span className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">

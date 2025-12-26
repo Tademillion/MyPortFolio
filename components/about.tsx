@@ -25,37 +25,21 @@ export default function About() {
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      school: "University of California",
-      year: "2020",
+      school: "Mekdela Amba University",
+      year: "July 2023",
       description: "Specialized in Software Engineering and Web Development",
-    },
-    {
-      degree: "Full Stack Development Bootcamp",
-      school: "Tech Academy",
-      year: "2019",
-      description: "Intensive 12-week program covering modern web technologies",
-    },
+    }
+   
   ]
 
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
-      year: "2022 - Present",
-      description: "Leading development of scalable web applications and mentoring junior developers",
+      title: "Junior Application Developer ",
+      company: "Amhara Bank SC",
+      year: "2024 - Present",
+      description: "Developing and maintain highly scalable web applications",
     },
-    {
-      title: "Full Stack Developer",
-      company: "Digital Solutions Ltd.",
-      year: "2020 - 2022",
-      description: "Developed and maintained multiple client projects using React and Node.js",
-    },
-    {
-      title: "Junior Developer",
-      company: "StartUp Hub",
-      year: "2019 - 2020",
-      description: "Built responsive web interfaces and contributed to backend API development",
-    },
+    // 
   ]
 
   return (
@@ -93,9 +77,8 @@ export default function About() {
                 <h3 className="text-lg font-semibold text-foreground">Personal Information</h3>
                 <div className="space-y-3">
                   {[
-                    { label: "Birthday", value: "January 15, 1998" },
-                    { label: "Location", value: "San Francisco, CA" },
-                    { label: "Email", value: "hello@taddmillion.com" },
+                     { label: "Location", value: "Addis Ababa, Ethiopia" },
+                    { label: "Email", value: "tedlamillionyou@gmail.com" },
                     { label: "Freelance", value: "Available" },
                   ].map((item, i) => (
                     <div key={i} className="flex flex-col">
@@ -112,13 +95,13 @@ export default function About() {
               className={`space-y-6 ${isVisible ? "animate-fade-in" : "opacity-0"}`}
               style={{ animationDelay: "200ms" }}
             >
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <h3 className="text-lg font-semibold text-foreground">Languages</h3>
                 <div className="space-y-2">
                   {[
-                    { lang: "English", level: "Native" },
-                    { lang: "Spanish", level: "Fluent" },
-                    { lang: "French", level: "Intermediate" },
+                    { lang: "English", level: "Intermidiate" },
+                    { lang: "Amharic", level: "Native" },
+                    { lang: "Afan Oromo", level: "Native" },
                   ].map((item, i) => (
                     <div key={i} className="flex justify-between items-center">
                       <span className="text-muted-foreground">{item.lang}</span>
@@ -126,7 +109,7 @@ export default function About() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               <div className="space-y-3 pt-4">
                 <h3 className="text-lg font-semibold text-foreground">What I Do</h3>
@@ -154,10 +137,9 @@ export default function About() {
               <h3 className="text-lg font-semibold text-foreground">Experience</h3>
               <div className="space-y-4">
                 {[
-                  { number: "50+", label: "Projects" },
-                  { number: "5+", label: "Years" },
-                  { number: "30+", label: "Happy Clients" },
-                  { number: "100%", label: "Satisfaction" },
+                  { number: "5+", label: "Projects" },
+                  { number: "2+", label: "Years" },
+                 
                 ].map((stat, i) => (
                   <div
                     key={i}
@@ -181,7 +163,9 @@ export default function About() {
               <Award size={28} className="text-cyan-500" />
               Education
             </h3>
-            <div className="grid md:grid-cols-2 gap-6">
+            {/* <div className="grid md:grid-cols-2 gap-6"> */}
+            <div className="space-y-4">
+
               {education.map((edu, i) => (
                 <div
                   key={i}

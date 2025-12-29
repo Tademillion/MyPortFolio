@@ -66,7 +66,8 @@ export default function Hero() {
                   Get In Touch
                 </a>
                 <a
-                  href="#"
+                  href="/tadeCv.pdf"
+                  download={"tadeCv.pdf"}
                   className="inline-flex items-center gap-2 px-6 py-3 border-2 border-muted text-muted-foreground rounded-lg font-semibold hover:border-foreground hover:text-foreground transition-all duration-300 whitespace-nowrap"
                 >
                   <Download size={18} /> CV
